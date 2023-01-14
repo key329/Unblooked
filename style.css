@@ -1,0 +1,137 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  border-radius: 8px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.header {
+	background: linear-gradient(-45deg, #003180, #2e35ff, #006eff, #23b9d7);
+  background-size: 400% 400%;
+	animation: gradient 45s ease infinite;
+  color:white;
+  padding: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-top: 4px solid #d4d4d4;
+  border-bottom: 4px solid #d4d4d4;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.info-board {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10% ;
+  margin-right: 10% ;
+  border: 3px solid #d4d4d4;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.button:hover {
+  background-color: #F7F7F7;
+  color: #0070ff;
+  border: 2px solid #0070ff;
+}
+.button {
+  background-color: #0070ff;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+footer {
+  border-top: 3px dotted #666;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+a {
+  text-decoration: underline;
+  color: black;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
